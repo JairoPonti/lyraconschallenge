@@ -1,2 +1,2 @@
 # lyraconschallenge
-Dedafio técnico para la empresa Lyracons en proceso
+Dedafío técnico para la empresa Lyracons en proceso
