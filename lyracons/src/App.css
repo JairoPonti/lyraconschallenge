@@ -37,6 +37,19 @@
   }
 } */
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+h1{
+  font-family:latoFuenteCustom, "Comic Sans";
+}
+
 @font-face {
   font-family: latoFuenteCustom;
   src: url(fonts/Lato/Lato-Regular.ttf);
@@ -49,7 +62,7 @@
 nav{
   display: flex; 
   flex-wrap: wrap;
- 
+   align-items: center;
    width: 100%;
    height: 50px;               
   border: 1px solid black;
@@ -59,16 +72,19 @@ nav{
 #marca{
   display:inline-flex;
   border: 1px solid black;    
-  margin-left:145.38px;
-  max-width:300px;
+  margin-left:93.86px;
+  max-width:77,57px;
+  height: 50px;
+  
 
 }
 
 #marca h3{
-  display: flex;
-  justify-content: flex-end;
-  font-size: 16px;
-  font:  latoFuenteCustom
+  /* line-height: 200px; */
+  /* display: flex;
+  justify-content: flex-end; */
+  /* position: absolute; */
+ 
   
 }
 
@@ -96,10 +112,12 @@ opacity: 1;
 }
 
 #marca > h3{
-  position: relative;
-  display:flex;
-  margin-top: 15px;
-width: 96.27px;
+  /* position: relative;
+  display:flex; */
+  font-size: 16px;
+ 
+  margin-top: 15px;     
+width:77,57px;
 height: 21.32px;
 text-align: left;
 font:  bold 16px/19px latoFuenteCustom;
@@ -132,10 +150,11 @@ aside{
  height: 619px;
  background: #CA5310 0% 0% no-repeat padding-box;
  opacity: 1;
+ margin-bottom: 84px;
  }
 
  #hamburguesa{
-  display: none
+  display: none;
 }
 
 /* .caja{
@@ -155,6 +174,9 @@ aside{
   background: #FF3400 0% 0% no-repeat padding-box;
   opacity: 1;
   border-radius: 100%;
+  /* transform: translateX(102.32px); */
+  margin-top: 11.33px;
+  transform: translateX(11px);
 }
 
 .circulo2{
@@ -163,6 +185,8 @@ aside{
   background: #FF3400 0% 0% no-repeat padding-box;
   opacity: 1;
   border-radius: 100%;
+  transform: translateX(-6px);
+  margin-top: 23px;
 }
 
 .circulo3{
@@ -171,6 +195,8 @@ aside{
   background: #FF3400 0% 0% no-repeat padding-box;
   opacity: 1;
   border-radius: 100%;
+  transform: translateX(-18px);
+  margin-top: 16.79px;
 }
 
 .circulo4{
@@ -179,6 +205,8 @@ aside{
   background: #FF3400 0% 0% no-repeat padding-box;
   opacity: 1;
   border-radius: 100%;
+  margin-top: 11px;
+  transform: translateX(-2px);
 }
 
 /* SUBMENU */
@@ -208,17 +236,12 @@ aside{
 
    /* RESPONSIVE */
 
-@media(max-width: 880px) {
-   #menu{
-     display: none;
-   }
+/* @media(max-width: 880px) {
+ 
 
-   #hamburguesa{
-     display: inline-block
-   }
-} 
+}  */
 
-@media(max-width: 480px) {
+@media(max-width: 800px) {
   aside{
     display: none;
   }
@@ -226,6 +249,18 @@ aside{
   #marca{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #hamburguesa{
+    display: inline-flex;
+    width: 23px;
+   transform: translateX(20px);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #menu{
+    display: none;
   }
 
 }
