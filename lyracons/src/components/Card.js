@@ -1,11 +1,15 @@
 import React from 'react';
 import './card.css';
+
 // import { Link } from 'react-router-dom';
 
-export default function Card () {
+export default function Card ({titulo, marca, precio, img}) {
     return (
       <div className="card">
-      <h3>Soy la card</h3>
+          <div className="contenedorImg">
+              <img src={img}/>
+          </div>
+       <h2>{titulo}</h2>
       </div>
     );
 };

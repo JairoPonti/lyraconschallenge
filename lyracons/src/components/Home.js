@@ -1,12 +1,19 @@
 import React from 'react'
 import Card from './Card'
 import Aside from './Aside'
+import  './Home.css'
+import Data from './Data'
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="Home">
         <Aside/>
-        < Card/>
+        <div className="contieneCards">
+        {Data.map((p)=> {
+            return  < Card 
+            titulo={p.titulo} />
+        })}
+        </div>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import './aside.css'
 
 const Aside = () => {
     return (
-        <aside>
+        <div className="aside">
         {/* <p>Hola mundo</p>  */}
-       </aside>  
+       </div>  
     )
 }
 

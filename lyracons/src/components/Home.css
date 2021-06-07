@@ -1,3 +1,37 @@
-.container{
-    display: flex
+.Home{
+    padding-right: 88px;
+    display: flex;
+}
+
+.contieneCards{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 619px;
+   width: 987px;
+}
+
+/* ::: RESPONSIVE:::: */
+
+
+@media(max-width: 1000px) {
+    .contieneCards{
+      width: 900px;
+    }
+
+}
+
+@media(max-width: 1271px) {
+    .contieneCards{
+      justify-content: center;
+    }
+
+    .Home{
+        justify-content: center;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

@@ -1,0 +1,31 @@
+
+
+.aside{
+    margin-top: 16px;
+     margin-left: 87px;
+   width: 200px;
+   height: 619px;
+   background: #CA5310 0% 0% no-repeat padding-box;
+   opacity: 1;
+   margin-bottom: 84px;
+   }
+
+
+
+
+
+
+
+/* ::: RESPONSIVE:::: */
+
+
+@media(max-width: 1271px) {
+    .aside{
+      display: none;
+    }
+
+}
+
+
+
+
