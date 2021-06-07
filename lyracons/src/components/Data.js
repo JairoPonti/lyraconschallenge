@@ -2,7 +2,7 @@ import React from 'react'
 import imagen from '../img/sony.png'
 
 const Data=[{
-    titulo: "Algo1",
+    titulo: "Título de producto",
     marca: "Toyota",
     precio: "1025",
     img: "",

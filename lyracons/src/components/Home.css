@@ -4,6 +4,7 @@
 }
 
 .contieneCards{
+    z-index: -1;
     justify-content: left;
     display: flex;
     flex-direction: row;
