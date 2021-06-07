@@ -2,6 +2,10 @@ import React from 'react';
 import Menu from '../img/menuRedimensionado.png'
 
 const Nav = () => {
+
+  function myFunction(){
+    console.log("hola")
+  }
     return (
         <nav>
         <div id="hamburguesa">
@@ -16,7 +20,7 @@ const Nav = () => {
             <h3>lyracons</h3>
           </div> 
           <ul id="menu">
-            <li id="uno"><a href="#">MENU ITEM 1</a>
+            <li id="uno" onClick={() => myFunction()}><a href="#">MENU ITEM 1</a>
                 <ul class="submenu">
                 <li id="uno"><a href="#">SUBMENU ITEM 1</a></li>
                 <li id="uno"><a href="#">SUBMENU ITEM 2</a></li>
