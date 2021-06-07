@@ -3,22 +3,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
 import Nav from './components/Nav';
+import  ThemeContext from './context/GeneralContext';
 
 
 function App() {
   return (
     <div >
+      <ThemeContext >
        <Router>
-            {/* <Nav /> */}
-            {/* <Aside/> */}
-            {/* <Card/> */}
             <Route path="/" component={Nav} />
-            <Route path="/" component={Home} />
-            {/* <Route path="/" component={Aside} />
-            <Route path="/" component={Card} /> */}
-            {/* <Route path="/" render={() => <Catalogo state={this.state} />} />
-            <Route exact path="/" component={Footer} /> */}
-          </Router>
+            <Route path="/" component={Home} />       
+       </Router>
+       </ThemeContext>
   </div>  
   );
 }
