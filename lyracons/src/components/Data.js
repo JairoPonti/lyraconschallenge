@@ -56,12 +56,6 @@ const Data=[{
     img: "sony",
     id: "8"
 },
-{
-    titulo: "Auricular Sony modelo I",
-    marca: "Sony",
-    precio: "1025",
-    img: "sony",
-    id: "9"
-}]
+]
 
 export default Data
