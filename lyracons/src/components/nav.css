@@ -2,3 +2,11 @@
     background:#552408 0% 0% no-repeat padding-box;
   }   */
 
+/* #hamburguesa:focus{
+  width: 40px;
+} */
+
+#btn-menu{
+  display: none
+}
+
