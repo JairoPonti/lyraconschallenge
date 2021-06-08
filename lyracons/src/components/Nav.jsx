@@ -4,34 +4,32 @@ import Menu from "../img/menuRedimensionado.png";
 import "./nav.css";
 
 const Nav = () => {
-  const { setInterruptor, setSidecolor, accesoGlobal, setInterruptorItems } = useContext(ThemeContext);
- 
+  const { setInterruptor, setSidecolor, InterruptorItems, setInterruptorItems } = useContext(ThemeContext);
+ console.log({InterruptorItems})
   function myFunction() {
     setInterruptor("on");
     console.log("ejecuté setInterruptor");
   }
 
   function changeColor(){
+    console.log("me ejecuté!")
     setSidecolor('changed')
   }
 
-  function hideItems(){
-    setInterruptorItems("on")
+  function normalColor(){
+    setSidecolor('aside')
   }
 
-  // var menuItemTres = document.getElementById("tres");
-  // // var afectado = document.getElementById("afectado");
-  // menuItemTres.addEventListener( "mouseover", () => {
-  //     setSidecolor('changed')
-  //   }
-  // );
-  // sobremi.addEventListener(
-  //   "mouseout",
-  //   () => {
-  //     afectado.className = "";
-  //   },
-  //   false
-  // );
+  function hideItems(){
+  //  if(InterruptorItems === 'off'){ 
+     console.log("ejecute hide!")
+     setInterruptorItems('on')
+    } 
+    // else {
+    //   setInterruptorItems('off')
+    // }
+ 
+
 
   return (
     <nav>
@@ -69,7 +67,7 @@ const Nav = () => {
           </ul>
         </li>
         <li id="dos" onClick={() => hideItems()}>MENU ITEM 2</li>
-        <li id="tres" onMouseOver={() => changeColor}>MENU ITEM 3</li>
+        <li id="tres" onMouseOver={() => changeColor()} onMouseOut={() => normalColor()}>MENU ITEM 3</li>
         <li id="cuatro" onClick={() => myFunction()}>
           MENU ITEM 4
         </li>

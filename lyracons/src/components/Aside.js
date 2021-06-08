@@ -5,9 +5,9 @@ import './aside.css'
 
 const Aside = () => {
 
-    const { interruptor, sideColor, accesoGlobal } = useContext(ThemeContext)
+    const { interruptor, sideColor } = useContext(ThemeContext)
     console.log(sideColor)
-    console.log(accesoGlobal)
+ 
     return (
       
         <div className={sideColor}>

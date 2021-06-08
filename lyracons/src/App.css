@@ -177,6 +177,8 @@ a{
   transform: translateX(-21.75px);
 }
 
+
+
 /* SUBMENU */
 
 .submenu{
@@ -232,9 +234,9 @@ label:hover{
 }  */
 
 @media(max-width: 835px) {
-  /* aside{
+  .aside{
     display: none;
-  } */
+  }
 
 
   #marca{
@@ -287,6 +289,16 @@ label:hover{
   #btn-menu:checked ~ #menu{
     display: block;
   } 
+
+  /* #tres:hover ~ .aside{
+    margin-top: 16px;
+  margin-left: 87px;
+width: 200px;
+height: 619px;
+  background:#552408 0% 0% no-repeat padding-box;
+  opacity: 1;
+   margin-bottom: 84px;
+  } */
 
   #menu li:hover .submenu{
     margin-left: 150px !important;
