@@ -5,14 +5,14 @@
 
 .customCard {
   padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 17px;
-  margin-left: 27px;
-  width: 200px;
-  height: 300px;
-  background: #eaeaea 0% 0% no-repeat padding-box;
-  border: 1px solid #000000;
-  opacity: 1;
+    padding-right: 15px;
+    margin-top: 18px ;
+    margin-left: 27px ;
+    width: 200px;
+    height: 300px;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
 }
 
 .contenedorImg {
