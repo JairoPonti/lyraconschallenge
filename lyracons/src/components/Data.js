@@ -1,4 +1,4 @@
-
+// Data que simula la respuesta de una api, por ej
 
 const Data=[{
     titulo: "Auriculares gamer modelo A",
@@ -8,7 +8,7 @@ const Data=[{
     id: "1"
 },
 {
-    titulo: "Auriculares inalámbricos modelo B",
+    titulo: "Auriculares modelo B",
     marca: "Sony",
     precio: "1025",
     img: "sony",

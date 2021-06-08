@@ -1,16 +1,8 @@
-/* #tres:hover .aside{
-    background:#552408 0% 0% no-repeat padding-box;
-  }   */
-
-/* #hamburguesa:focus{
-  width: 40px;
-} */
-
-#btn-menu{
-  display: none
+#btn-menu {
+  display: none;
 }
 
-.logoLyra{
+.logoLyra {
   width: 129.14px;
   height: 25.92px;
   margin-top: auto;
