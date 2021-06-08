@@ -33,7 +33,7 @@ h2{
   padding-top: 12px;
   font-size: 12px;
   text-align: left;
-  font: normal normal bold 12px/15px Lato;
+  font: normal normal bold 12px/15px latoFuenteCustom;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -51,7 +51,7 @@ h2{
   margin-top: 4px;
   font-size: 12px;
   text-align: left;
-  font: normal normal bold 12px/15px Lato;
+  font: normal normal normal 12px/15px latoFuenteCustom;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -64,7 +64,7 @@ h2{
   margin-top: 4px;
   font-size: 12px;
   text-align: left;
-  font: normal normal bold 12px/15px Lato;
+  font: normal normal normal 12px/15px  latoFuenteCustom;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -77,6 +77,11 @@ background: #C4C4C4 0% 0% no-repeat padding-box;
 opacity: 1;
 border-color: #C4C4C4;
 outline:none;
+margin-top: 12px;
+font: normal normal bold 14px/17px  latoFuenteCustom;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
 }
 
   @media(max-width: 1271px) {
