@@ -1,68 +1,67 @@
-import React from 'react'
-import imagen from '../img/sony.png'
+
 
 const Data=[{
-    titulo: "Título de producto",
-    marca: "Toyota",
+    titulo: "Auriculares gamer modelo A",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "1"
 },
 {
-    titulo: "Algo2",
-    marca: "Toyota",
+    titulo: "Auriculares inalámbricos modelo B",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "2"
 },
 {
-    titulo: "Algo3",
-    marca: "Toyota",
+    titulo: "Auricular modelo C",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "3"
 },
 {
-    titulo: "Algo4",
-    marca: "Toyota",
+    titulo: "Auricular Vincha modelo D",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "4"
 },
 {
-    titulo: "Algo5",
-    marca: "Toyota",
+    titulo: "Auricular Sony modelo E",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "5"
 },
 {
-    titulo: "Algo6",
-    marca: "Toyota",
+    titulo: "Auriculares gamer modelo F",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "3"
 },
 {
-    titulo: "Algo7",
-    marca: "Toyota",
+    titulo: "Auriculares gamer modelo G",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "4"
 },
 {
-    titulo: "Algo8",
-    marca: "Toyota",
+    titulo: "Auricular Sony modelo H",
+    marca: "Sony",
     precio: "1025",
-    img: "",
+    img: "sony",
     id: "8"
 },
 {
-    titulo: "Algo8",
-    marca: "Toyota",
+    titulo: "Auricular Sony modelo I",
+    marca: "Sony",
     precio: "1025",
-    img: "",
-    id: "8"
+    img: "sony",
+    id: "9"
 }]
 
 export default Data

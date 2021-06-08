@@ -37,17 +37,13 @@ const Nav = () => {
       <label for="btn-menu">
       <img src={Menu} alt=""></img>
       </label>
-      {/* <div id="hamburguesa">
-        
-      </div> */}
-
       <div id="marca">
         <div className="circulo1"></div>
         <div className="circulo2"></div>
         <div className="circulo3"></div>
         <div className="circulo4"></div>
         <div className="circulo5"></div>
-        <h3>lyracons</h3>
+        <img className="logoLyra" src={`./assets/logo-lyracons.png`} alt=""></img>
       </div>
       <ul id="menu">
         <li >
