@@ -1,15 +1,14 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-h1{
-  font-family:latoFuenteCustom, "Comic Sans";
+h1 {
+  font-family: latoFuenteCustom, "Comic Sans";
 }
 
 @font-face {
@@ -17,91 +16,68 @@ h1{
   src: url(fonts/Lato/Lato-Regular.ttf);
 }
 
-
-/* ::::::::::::MIO:::::::: */
-
-
-nav{
-  display: flex; 
+nav {
+  display: flex;
   flex-wrap: wrap;
-   align-items: center;
-   width: 100%;
-   height: 50px;               
-  /* border: 1px solid black; */
-  background: #C4C4C4 0% 0% no-repeat padding-box;
-
-}
-
-#marca{
-  display:inline-flex;  
-  margin-left:93.86px;
-  max-width:77,57px;
+  align-items: center;
+  width: 100%;
   height: 50px;
-  
-
+  /* border: 1px solid black; */
+  background: #c4c4c4 0% 0% no-repeat padding-box;
 }
 
+#marca {
+  display: inline-flex;
+  margin-left: 93.86px;
+  max-width: 77, 57px;
+  height: 50px;
+}
 
-
-#menu{
-  display:inline-flex;
-  height:50px;
-  /* border: 1px solid black; */
+#menu {
+  display: inline-flex;
+  height: 50px;
   padding: 0px;
   margin: 0px;
   margin-left: 94.05px;
   flex-direction: row;
- 
 }
 
-#menu > li{
+#menu > li {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   margin-top: 15px;
-width: 104px;
-height: 19px;
-text-align: left;
-font:  bold 16px/19px latoFuenteCustom;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
-cursor:pointer
+  width: 104px;
+  height: 19px;
+  text-align: left;
+  font: bold 16px/19px latoFuenteCustom;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  cursor: pointer;
 }
 
-
-#uno{
+#uno {
   padding: 0px !important;
 }
 
-#dos, #tres ,#cuatro{
-  margin-left: 21px
+#dos,
+#tres,
+#cuatro {
+  margin-left: 21px;
 }
 
-nav ul{
+nav ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-
-
- #hamburguesa{
+#hamburguesa {
   display: none;
 }
-
-/* .caja{
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  padding: 20px;
-  border: 4px solid #222;
-  margin: 10px;
-  background: gray;
-} */
 
 /* .circulo1{
   width: 11px;
@@ -153,14 +129,11 @@ a{
   transform: translateX(-21.75px);
 } */
 
-
-
 /* SUBMENU */
 
-.submenu{
-  
+.submenu {
   position: absolute;
-  background: #C4C4C4;
+  background: #c4c4c4;
   width: 20%;
   visibility: hidden;
   opacity: 0;
@@ -169,129 +142,95 @@ a{
   transition: opacity 1.5s;
 }
 
-.submenu  li  a {
+.submenu li a {
   z-index: 1;
-   display: block;
-   padding: 0px;
-   margin-top: 25px;
-   color: #fff;
-   font:  bold 16px/19px latoFuenteCustom;
-  
-    
+  display: block;
+  padding: 0px;
+  margin-top: 25px;
+  color: #fff;
+  font: bold 16px/19px latoFuenteCustom;
 }
 
-a:hover {color: #FF3400}
+a:hover {
+  color: #ff3400;
+}
 
-#menu li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-    width: 170%;
-    height: 190px;
-    
-    
-} 
+#menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  width: 170%;
+  height: 190px;
+}
 
-label{
+label {
   display: none;
   width: 23px;
- transform: translateX(20px);
+  transform: translateX(20px);
   margin-top: auto;
   margin-bottom: auto;
 }
 
-label:hover{
-  cursor:pointer
+label:hover {
+  cursor: pointer;
 }
 
-   /* RESPONSIVE */
+/* RESPONSIVE */
 
-/* @media(max-width: 880px) {
- 
-
-}  */
-
-@media(max-width: 835px) {
-  .aside{
+@media (max-width: 835px) {
+  .aside {
     display: none;
   }
 
-
-  #marca{
+  #marca {
     margin-left: auto;
     margin-right: auto;
   }
 
-  label{
+  label {
     display: inline-flex;
     width: 23px;
-   transform: translateX(20px);
+    transform: translateX(20px);
     margin-top: auto;
     margin-bottom: auto;
   }
-  /* #hamburguesa{
-    display: inline-flex;
-    width: 23px;
-   transform: translateX(20px);
-    margin-top: auto;
-    margin-bottom: auto;
-  } */
 
- 
-  #menu{
-    /* display: none; */
-    /* display: flex; */
+  #menu {
     display: none;
-    height: 1406px;
-    /* transform: translateY(50px); */
-    /* margin-top: 50px; */
+    height: 1700px;
     padding: 10px;
     margin-left: auto !important;
     margin-right: auto !important;
-    /* position: absolute; */
     flex-direction: column;
     align-items: center;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-   
+    background: #ffffff 0% 0% no-repeat padding-box;
   }
 
-  #uno{
+  #uno {
     margin-left: 20px;
   }
 
-  #menu > li{
+  #menu > li {
     width: 400px;
-   
   }
 
-  #btn-menu:checked ~ #menu{
+  #btn-menu:checked ~ #menu {
     display: block;
-  } 
+  }
 
-  /* #tres:hover ~ .aside{
-    margin-top: 16px;
-  margin-left: 87px;
-width: 200px;
-height: 619px;
-  background:#552408 0% 0% no-repeat padding-box;
-  opacity: 1;
-   margin-bottom: 84px;
-  } */
-
-  #menu li:hover .submenu{
+  #menu li:hover .submenu {
     margin-left: 150px !important;
     transform: translateY(-50px);
   }
 
-  #dos{
-    padding-top: 20px 
+  #dos {
+    padding-top: 20px;
   }
 
-  #tres{
-    padding-top: 20px
+  #tres {
+    padding-top: 20px;
   }
 
-  #cuatro{
-    padding-top: 20px
+  #cuatro {
+    padding-top: 20px;
   }
-
 }
