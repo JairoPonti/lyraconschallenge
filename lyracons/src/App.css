@@ -73,21 +73,23 @@ font:  bold 16px/19px latoFuenteCustom;
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;
+cursor:pointer
 }
 
 #marca > h3{
   /* position: relative;
   display:flex; */
-  font-size: 16px;
+  /* font-size: 16px; */
  
   margin-top: 15px;     
 width:77,57px;
 height: 21.32px;
 text-align: left;
-font:  bold 16px/19px latoFuenteCustom;
+font:  bold 20px/19px latoFuenteCustom;
 letter-spacing: 0px;
 color: #2B2828;
 opacity: 1;
+transform: translateX(-13px)
 }
 
 #uno{
@@ -165,6 +167,16 @@ a{
   transform: translateX(-2px);
 }
 
+.circulo5{
+  width: 13px;
+  height: 13px;
+  background: #C4C4C4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+  margin-top: 17.51px;
+  transform: translateX(-21.75px);
+}
+
 /* SUBMENU */
 
 .submenu{
@@ -219,7 +231,7 @@ label:hover{
 
 }  */
 
-@media(max-width: 800px) {
+@media(max-width: 835px) {
   /* aside{
     display: none;
   } */

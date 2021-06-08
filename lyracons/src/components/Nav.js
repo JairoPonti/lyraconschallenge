@@ -48,6 +48,7 @@ const Nav = () => {
         <div className="circulo2"></div>
         <div className="circulo3"></div>
         <div className="circulo4"></div>
+        <div className="circulo5"></div>
         <h3>lyracons</h3>
       </div>
       <ul id="menu">

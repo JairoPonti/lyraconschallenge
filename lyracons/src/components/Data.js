@@ -56,6 +56,13 @@ const Data=[{
     precio: "1025",
     img: "",
     id: "8"
+},
+{
+    titulo: "Algo8",
+    marca: "Toyota",
+    precio: "1025",
+    img: "",
+    id: "8"
 }]
 
 export default Data
