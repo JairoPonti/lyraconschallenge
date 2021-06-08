@@ -27,6 +27,7 @@
 @media(max-width: 1271px) {
     .contieneCards{
       justify-content: center;
+      height: 660px
     }
 
     .Home{
